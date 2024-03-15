@@ -1,0 +1,29 @@
+<div class = "slide" id = "5">
+ <div class = "content fifth-content">
+  <div class = "container-fluid">
+   <div class = "col-md-6">
+    <form id = "contact" action = "{% url 'contact' %}" method = "post">
+     {% csrf_token %}
+     <div class = "row">
+      <div class = "col-md-12">
+       {{ form.name.label_tag }}
+       {{ form.name }}
+      </div>
+      <div class = "col-md-12">
+       {{ form.email.label_tag }}
+       {{ form.email }}
+      </div>
+      <div class = "col-md-12">
+       {{ form.message.label_tag }}
+       {{ form.message }}
+      </div>
+      <div class = "col-md-12">
+       <button type = "submit" id = "form-submit" class = "btn">Send now</button>
+      </div>
+     </div>
+    </form>
+   </div>
+  </div>
+ </div>
+</div>
+
