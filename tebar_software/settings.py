@@ -11,7 +11,7 @@ BASE_DIR = Path( __file__ ).resolve( ).parent.parent
 SECRET_KEY = 'django-insecure-tidaoeo@yd%m1&@m_a_cp604ibfz5)_tv!-ox23q)cgghp&3-b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['dtebar.pythonanywhere.com', 'localhost', '127.0.0.1']
 # ALLOWED_HOSTS = [ ]
