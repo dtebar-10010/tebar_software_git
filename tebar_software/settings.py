@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-tidaoeo@yd%m1&@m_a_cp604ibfz5)_tv!-ox23q)cgghp&3-b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['dtebar.pythonanywhere.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['AubreyDMoralesFigueroa.pythonanywhere.com', 'localhost', '127.0.0.1']
 # ALLOWED_HOSTS = [ ]
 
 # Application definition
@@ -119,7 +119,7 @@ CRISPY_TEMPLATE_PACK = "bootstrap3"
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'dtebar@gmail.com'
-EMAIL_HOST_PASSWORD = 'kjnu zglo xndq qryw'
+EMAIL_HOST_USER = 'Aubsticle352@gmail.com'
+EMAIL_HOST_PASSWORD = 'iomg hygk jnyn nawt'
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'dtebar@gmail.com'
+DEFAULT_FROM_EMAIL = 'Aubsticle352@gmail.com'

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ts-project.iml" filepath="$PROJECT_DIR$/.idea/ts-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AuPortfNtebooks/.idea/AuPortfNtebooks.iml" filepath="$PROJECT_DIR$/../AuPortfNtebooks/.idea/AuPortfNtebooks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/au-project.iml" filepath="$PROJECT_DIR$/.idea/au-project.iml" />
     </modules>
   </component>
 </project>

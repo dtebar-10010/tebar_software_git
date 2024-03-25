@@ -1,29 +1,19 @@
 {% extends 'base.html' %}
 {% load static %}
 
-
 {% block content %}
-
- {##}
- {# <div class = "sequence">#}
- {#  <div class = "seq-preloader">#}
- {#   <svg width = "39" height = "16" viewBox = "0 0 39 16" xmlns = "http://www.w3.org/2000/svg" class = "seq-preload-indicator">#}
- {#    <g fill = "#F96D38">#}
- {#     <path class = "seq-preload-circle seq-preload-circle-1" d = "M3.999 12.012c2.209 0 3.999-1.791 3.999-3.999s-1.79-3.999-3.999-3.999-3.999 1.791-3.999 3.999 1.79 3.999 3.999 3.999z"></path>#}
- {#     <path class = "seq-preload-circle seq-preload-circle-2" d = "M15.996 13.468c3.018 0 5.465-2.447 5.465-5.466 0-3.018-2.447-5.465-5.465-5.465-3.019 0-5.466 2.447-5.466 5.465 0 3.019 2.447 5.466 5.466 5.466z"></path>#}
- {#     <path class = "seq-preload-circle seq-preload-circle-3" d = "M31.322 15.334c4.049 0 7.332-3.282 7.332-7.332 0-4.049-3.282-7.332-7.332-7.332s-7.332 3.283-7.332 7.332c0 4.05 3.283 7.332 7.332 7.332z"></path>#}
- {#    </g>#}
- {#   </svg>#}
- {#  </div>#}
- {# </div>#}
 
  <nav>
 
   <div class = "logo">
+   {#   <a href = "#1">#}
    <img src = "{% static 'img/icons/logo.png' %}" alt = "">
+   {#   </a>#}
   </div>
   <div class = "mini-logo">
+   {#   <a href = "#1">#}
    <img src = "{% static 'img/icons/logo.png' %}" alt = "">
+   {#   </a>#}
   </div>
 
   <ul>
@@ -61,49 +51,91 @@
 
  </nav>
 
- <div class = "slides" style = 'overflow: hidden;'>
-  <div class = "slide" id = "1" style = 'overflow: hidden;'>
+ <div class = "slides">
+  <div class = "slide" id = "1" style = 'overflow: hidden !important'>
    <div class = "content first-content">
     <div class = "container-fluid">
 
      <div class = "col-md-3">
       <div class = "author-image">
-       <img src = "{% static 'img/author_image.jpg' %}" alt = "">
+       <img src = "{% static 'img/author_image_au.png' %}" alt = "">
       </div>
      </div>
 
      <div class = "col-md-9 author-text">
-      <h2>DANIEL TÉBAR</h2>
-      <p> I am an
-       <em>experienced</em>
-       software developer residing in New York City.
-       I have developed software systems for some of the most important corporations, and government agencies in the USA.
-       I will develop an
-       <em>elegant and useful</em>
-       web application for your company without
-       breaking your bank, and in a timely fashion,
-       <em>guaranteed</em>
-       .
+      <h2>Aubrey D. Morales-Figueroa</h2>
+      <p>
+       As a dedicated professional with a solid academic background and practical experience in genetics and
+       molecular biology, I am on the path to completing my
+       <em>Master's in Data Science</em>
+       , with a focus on
+       Computational Biology and Bioinformatics, anticipated to graduate
+       <em>magna cum laude</em>
+       in August 2024. My
+       academic journey has been marked by a deep engagement and exceptional performance across a wide
+       range of subjects, such as Statistical Programming, Data Mining, Multivariate Data Analysis, Data
+       Visualization, Data Storage Systems, and both Supervised and Unsupervised Machine Learning.
+      </p>
+      <p>
+       This diverse and comprehensive skill set, augmented by my hands-on laboratory experience across
+       various scientific disciplines, uniquely qualifies me for advanced roles in
+       <em>Bioinformatics</em>
+       ,
+       <em>Data Science</em>
+       ,
+       and
+       <em>Machine Learning</em>
+       . My academic accomplishments and practical experiences reflect my unwavering
+       commitment to contributing significantly to these dynamic fields. Through a blend of rigorous education
+       and real-world application, I have honed my abilities to analyze complex datasets, derive insightful
+       conclusions, and apply these findings to drive research and innovation forward.
       </p>
 
-      <ul>
-       <li>
-        <a href = "https://top-quarks.com" target = "_blank">eCommerce Sample</a>
+      <em style = 'color: whitesmoke'>LINKS TO CODE SAMPLES -GITHUB:</em>
+      <p></p>
+
+      <ul style = 'margin-left: -3px;'>
+       <li style = "font-family: 'Open Sans', sans-serif; font-size: 13px;">
+        <a href = "https://github.com/dtebar-10010/tebar_software_git" target = "_blank" class = "white-on-hover text-decoration: none;">TBD</a>
+        <ul>
+         <li style = "margin-left: 20px; margin-top: 9px; font-family: 'Open Sans', sans-serif; font-size: 11px; color:whitesmoke;">TBD</li>
+        </ul>
        </li>
-       <li>
-        <a href = "https://www.facebook.com/dmtebar/" target = "_blank">My FB Page</a>
+      </ul>
+
+      <ul style = 'margin-left: -3px;'>
+       <li style = "font-family: 'Open Sans', sans-serif; font-size: 13px;">
+        <a href = "https://github.com/dtebar-10010/tebar_software_git" target = "_blank" class = "white-on-hover text-decoration: none;">TBD</a>
+        <ul>
+         <li style = "margin-left: 20px; margin-top: 9px; font-family: 'Open Sans', sans-serif; font-size: 11px; color:whitesmoke;">TBD</li>
+        </ul>
        </li>
-       <li>
-        <a href = "https://top-quarks.com/dtebar/Meet_The_Beatles/index.php" target = "_blank">Meet The Beatles !</a>
+      </ul>
+
+      <ul style = 'margin-left: -3px;'>
+       <li style = "font-family: 'Open Sans', sans-serif; font-size: 13px;">
+        <a href = "https://github.com/dtebar-10010/tebar_software_git" target = "_blank" class = "white-on-hover text-decoration: none;">TBD</a>
+        <ul>
+         <li style = "margin-left: 20px; margin-top: 9px; font-family: 'Open Sans', sans-serif; font-size: 11px; color:whitesmoke;">TBD</li>
+        </ul>
        </li>
-       <li>
-        <a href = "https://LIVEiTECH.com" target = "_blank">LIVE i TECH</a>
+      </ul>
+
+      <ul style = 'margin-left: -3px;'>
+       <li style = "font-family: 'Open Sans', sans-serif; font-size: 13px;">
+        <a href = "https://github.com/dtebar-10010/tebar_software_git" target = "_blank" class = "white-on-hover text-decoration: none;">TBD</a>
+        <ul>
+         <li style = "margin-left: 20px; margin-top: 9px; font-family: 'Open Sans', sans-serif; font-size: 11px; color:whitesmoke;">TBD</li>
+        </ul>
        </li>
-       <li>
-        <a href = "https://top-quarks.com/dtebar/harrison/index.php?vid=9045&strip=6" target = "_blank">Commander Figz</a>
-       </li>
-       <li>
-        <a href = "https://top-quarks.com/dtebar/celeste/index.php?vid=3351&strip=3" target = "_blank">Celeste Figz</a>
+      </ul>
+
+      <ul style = 'margin-left: -3px;'>
+       <li style = "font-family: 'Open Sans', sans-serif; font-size: 13px;">
+        <a href = "https://github.com/dtebar-10010/tebar_software_git" target = "_blank" class = "white-on-hover text-decoration: none;">TBD</a>
+        <ul>
+         <li style = "margin-left: 20px; margin-top: 9px; font-family: 'Open Sans', sans-serif; font-size: 11px; color:whitesmoke;">TBD</li>
+        </ul>
        </li>
       </ul>
 
@@ -116,25 +148,71 @@
    <div class = "content second-content">
     <div class = "container-fluid">
      <div class = "col-md-6">
-      <div class = "left-content">
+      <div class = "left-content" id = "myTextContainer">
        <h2>It's All About Me</h2>
-       <p>Degrees in software development and chemistry;</p>
-       <p>> 20 years of experience in the software development trade;</p>
-       <p>web sites from 1,000 USD;</p>
-       <p>full-fledged eCommerce web applications, from 10,000 USD;</p>
-       <p>financing available.</p>
+
+       <br>
+       University of Florida Bachelor of Science (
+       <em>B.S.</em>
+       ), Genetics, 2015;
+       <br>
+       Lewis University Master of Science (
+       <em>M.S.</em>
+       ), Data Science with concentration in Bioinformatics and
+       Computational Biology.
+       <em>Magna Cum Laude</em>
+       Honors - Graduation August 2024;
+       <hr>
+       <br>
+       <em>Languages:</em>
+       Python, R, SQL, SAS, MATLAB, Java;
+       <br>
+       <em>Development Environments:</em>
+       Jupyter Notebooks, PyCharm;
+       <br>
+       <em>Libraries/Tools:</em>
+       NumPy, Pandas, SciPy, Matplotlib, Seaborn, Biopython, Bioconductor, Plotly, Beautiful Soup,
+       GenomeStudio, BLAST, BWA, Bowtie, SAMtools, UCSC Genome Browser, Ensembl, Docker,
+       ScikitLearn, TensorFlow, Keras, PyTorch, FastAI;
+       <br>
+       <em>Data Management:</em>
+       SQL, Hadoop, Data Mining, Cloud Computing Platforms (AWS, Google Cloud),
+       Version Control (Git, GitHub);
+       <br>
+       <em>Concepts:</em>
+       Object-Oriented Programming (OOP) principles and implementations;
+       <hr>
+       <br>
+       <em>Focus Areas:</em>
+       Machine Learning (ML), Artificial Intelligence (AI), Informatics, Pattern Recognition, Data Analysis,
+       Predictive Modeling, Natural Language Processing (NLP), Reinforcement Learning, Neural Networks, Deep Learning,
+       Analytics, Business Intelligence, Predictive Analytics, Computer Science, Microsoft Office, Google Docs, Google Colaboratory;
+       <hr>
+       <br>
+       <em>Techniques and Technologies:</em>
+       Feature Engineering, Model Training and Evaluation, Computer Vision (image and face
+       recognition), Statistical Analysis & Modeling, Principal Component Analysis (PCA), Linear
+       Discriminant Analysis (LDA), k-means Clustering, Hierarchical Clustering, Anomaly
+       Detection, Time Series Analysis, Survival Analysis, Ensemble Methods (including
+       Random Forests), Sequence Analysis, Gene Expression Analysis, Protein Structure Prediction,
+       NGS Analysis (alignment, variant calling), Comparative Genomics,
+       Molecular Biology, PCR, qRT-PCR, Human Genomics, Genetics, Genotyping, Illumina,
+       Microarray, Next Generation Sequencing (NGS), Cell Culture, Virology, iPSCs,
+       Macrophage/Microglia, Immunohistochemistry, Immunoassays, ELISA, Flow Cytometry,
+       DNA/RNA Isolation, QC, Microscopy, Laboratory Management.
+
       </div>
      </div>
      <div class = "col-md-6">
       <div class = "right-image">
-       <img src="{% static 'img/about_image.jpg' %}" alt="" style="margin-right: 6px;">
+       <img src = "{% static 'img/about_image_au2.png' %}" alt = "" style = "margin-right: 6px;">
       </div>
      </div>
     </div>
    </div>
   </div>
 
-  <div class = "slide" id = "3" style = 'overflow: hidden;'>
+  <div class = "slide" id = "3" style = 'overflow: hidden !important;'>
    <div class = "content third-content">
     <div class = "container-fluid">
      <div class = "col-md-12">
@@ -153,9 +231,10 @@
            </div>
           </div>
           <div class = "col-md-6">
-           <div class = "right-image">
-            <img src = "{% static 'img/first_service.jpg' %}" alt = "">
+           <div class = "right-image" style = "margin-bottom: 3px; margin-top:3px;  margin-right: -33% !important; 'overflow: hidden !important;'">
+            <img src = "{% static 'img/first_service_au.png' %}" alt = "" style = "opacity: 1.0 !important; transform: scale(1.0);">
            </div>
+
           </div>
          </div>
         </div>
@@ -165,12 +244,13 @@
         <div class = "container-fluid">
          <div class = "row">
           <div class = "col-md-6">
-           <div class = "left-image">
-            <img src = "{% static 'img/second_service.jpg' %}" alt = "">
+           <div class = "left-image" style = 'margin-top: 3px; margin-left:-33px; overflow-x: hidden !important;'>
+            <img src = "{% static 'img/second_service_au.jpg' %}" alt = "" style = "opacity: 0.2 !important; transform: scale(1.0);">
            </div>
           </div>
           <div class = "col-md-6">
-           <div class = "right-content">
+           <div class = "right-content" style = 'margin-top: 36px; overflow: hidden !important;'>
+            f
             <h2>Software is a science</h2>
             <p>I always address computer programming as an engineering
              discipline. I take the time to design well before I
@@ -191,7 +271,7 @@
    </div>
   </div>
 
-  <div class = "slide" id = "4">
+  <div class = "slide" id = "4" style = 'overflow: hidden !important'>
    <div class = "content fourth-content">
     <div class = "container-fluid">
      <div class = "row">
@@ -202,8 +282,11 @@
          <img src = "{% static 'img/portfolio/01-portfolio.jpg' %}" alt = "">
          <div class = "hover-effect">
           <div class = "hover-content">
-           <h2>New Jersey Insurance Group</h2>
-           <p>Software requirements elicitation and documentation; UML modeling.</p>
+           <h2>Lewis University</h2>
+           <p>Master of Science (
+            <em>M.S.</em>
+            ), Data Science
+           </p>
           </div>
          </div>
         </div>
@@ -216,8 +299,11 @@
          <img src = "{% static 'img/portfolio/02-portfolio.jpg' %}" alt = "">
          <div class = "hover-effect">
           <div class = "hover-content">
-           <h2>Ariba Software</h2>
-           <p>Technical documentation of software internals.</p>
+           <h2>University of Florida</h2>
+           <p>Bachelor of Science (
+            <em>B.S.</em>
+            ), Genetics
+           </p>
           </div>
          </div>
         </div>
@@ -230,8 +316,8 @@
          <img src = "{% static 'img/portfolio/03-portfolio.jpg' %}" alt = "">
          <div class = "hover-effect">
           <div class = "hover-content">
-           <h2>Department of the Navy</h2>
-           <p>Design of field-of-battle telemedicine application.</p>
+           <h2>University of Miami Miller School of Medicine</h2>
+           <p>Virology researcher</p>
           </div>
          </div>
         </div>
@@ -244,8 +330,8 @@
          <img src = "{% static 'img/portfolio/04-portfolio.jpg' %}" alt = "">
          <div class = "hover-effect">
           <div class = "hover-content">
-           <h2>Pfizer Pharmaceuticals</h2>
-           <p>Design of new FDA reporting software tool.</p>
+           <h2>GenoSur</h2>
+           <p>Molecular technologist</p>
           </div>
          </div>
         </div>
@@ -258,178 +344,8 @@
          <img src = "{% static 'img/portfolio/05-portfolio.jpg' %}" alt = "">
          <div class = "hover-effect">
           <div class = "hover-content">
-           <h2>Verizon Wireless</h2>
-           <p>Integration of 'East' and 'West' wireless billing software platforms.</p>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-
-      <div class = "col-md-4 col-sm-6">
-       <div class = "item">
-        <div class = "thumb">
-         <img src = "{% static 'img/portfolio/06-portfolio.jpg' %}" alt = "">
-         <div class = "hover-effect">
-          <div class = "hover-content">
-           <h2>Sparx Enterprise Architect</h2>
-           <p>Implementation of the Unified Modeling Language ( UML ), for all of the phases
-            of the software development cycle.</p>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-
-      <div class = "col-md-4 col-sm-6">
-       <div class = "item">
-        <div class = "thumb">
-         <img src = "{% static 'img/portfolio/07-portfolio.jpg' %}" alt = "">
-         <div class = "hover-effect">
-          <div class = "hover-content">
-           <h2>Walt Disney World</h2>
-           <p>Design and development of photographic moderation tool,
-            for all parks and cruises, worldwide.</p>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-
-      <div class = "col-md-4 col-sm-6">
-       <div class = "item">
-        <div class = "thumb">
-         <img src = "{% static 'img/portfolio/08-portfolio.jpg' %}" alt = "">
-         <div class = "hover-effect">
-          <div class = "hover-content">
-           <h2>State of Pennsylvania</h2>
-           <p>Training in best software development practices for government developers.</p>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-
-      <div class = "col-md-4 col-sm-6">
-       <div class = "item">
-        <div class = "thumb">
-         <img src = "{% static 'img/portfolio/09-portfolio.jpg' %}" alt = "">
-         <div class = "hover-effect">
-          <div class = "hover-content">
-           <h2>Gotham Technologies</h2>
-           <p>Video integration for Major League Baseball web site.</p>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-
-      <div class = "col-md-4 col-sm-6">
-       <div class = "item">
-        <div class = "thumb">
-         <img src = "{% static 'img/portfolio/10-portfolio.jpg' %}" alt = "">
-         <div class = "hover-effect">
-          <div class = "hover-content">
-           <h2>Time Warner Cable</h2>
-           <p>Design and development of cable commercials scheduling software application.</p>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-
-      <div class = "col-md-4 col-sm-6">
-       <div class = "item">
-        <div class = "thumb">
-         <img src = "{% static 'img/portfolio/11-portfolio.jpg' %}" alt = "">
-         <div class = "hover-effect">
-          <div class = "hover-content">
-           <h2>Bank of America</h2>
-           <p>Business process modeling for standardization amongst acquired banks.</p>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-
-      <div class = "col-md-4 col-sm-6">
-       <div class = "item">
-        <div class = "thumb">
-         <img src = "{% static 'img/portfolio/12-portfolio.jpg' %}" alt = "">
-         <div class = "hover-effect">
-          <div class = "hover-content">
-           <h2>Akimeka Defense</h2>
-           <p>Development of application for the US Department of Defense.</p>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-
-      <div class = "col-md-4 col-sm-6">
-       <div class = "item">
-        <div class = "thumb">
-         <img src = "{% static 'img/portfolio/13-portfolio.jpg' %}" alt = "">
-         <div class = "hover-effect">
-          <div class = "hover-content">
-           <h2>Advance Auto Parts</h2>
-           <p>Design and development of new parts-search application.</p>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-
-      <div class = "col-md-4 col-sm-6">
-       <div class = "item">
-        <div class = "thumb">
-         <img src = "{% static 'img/portfolio/14-portfolio.jpg' %}" alt = "">
-         <div class = "hover-effect">
-          <div class = "hover-content">
-           <h2>Live i Tech</h2>
-           <p>Web site design and development.</p>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-
-      <div class = "col-md-4 col-sm-6">
-       <div class = "item">
-        <div class = "thumb">
-         <img src = "{% static 'img/portfolio/15-portfolio.jpg' %}" alt = "">
-         <div class = "hover-effect">
-          <div class = "hover-content">
-           <h2>Scheer Intelligence</h2>
-           <p>Unified Modeling Language training for selective personnel.</p>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-
-      <div class = "col-md-4 col-sm-6">
-       <div class = "item">
-        <div class = "thumb">
-         <img src = "{% static 'img/portfolio/17-portfolio.jpg' %}" alt = "">
-         <div class = "hover-effect">
-          <div class = "hover-content">
-           <h2>Linked-In Referral</h2>
-           <p>From Advance Auto Parts, and others.</p>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-
-      <div class = "col-md-4 col-sm-6">
-       <div class = "item">
-        <div class = "thumb">
-         <img src = "{% static 'img/portfolio/18-portfolio.jpg' %}" alt = "">
-         <div class = "hover-effect">
-          <div class = "hover-content">
-           <h2>Compu-Mailing Systems</h2>
-           <p>Development of mailing address databases manipulation systems.</p>
+           <h2>ChatGPT</h2>
+           <p>Effective AI prompt engineering</p>
           </div>
          </div>
         </div>
@@ -456,7 +372,7 @@
    </div>
   </div>
 
-  <div class = "slide" id = "5">
+  <div class = "slide" id = "5" style = 'overflow: hidden !important'>
    <div class = "content fifth-content">
     <div class = "container-fluid">
      <div class = "col-md-6">
@@ -465,21 +381,21 @@
        {% csrf_token %}
 
        <div class = "form-group row">
-        <label for = "id_name" class = "col-sm-2 col-form-label">Name</label>
+        <label for = "id_name" class = "col-sm-2 col-form-label" style = "color: green;">NAME</label>
         <div class = "col-sm-10">
          {{ form.name }}
         </div>
        </div>
 
        <div class = "form-group row">
-        <label for = "id_email" class = "col-sm-2 col-form-label">Email</label>
+        <label for = "id_email" class = "col-sm-2 col-form-label" style = "color: green;">EMAIL</label>
         <div class = "col-sm-10">
          {{ form.email }}
         </div>
        </div>
 
        <div class = "form-group row">
-        <label for = "id_message" class = "col-sm-2 col-form-label">Message</label>
+        <label for = "id_message" class = "col-sm-2 col-form-label" style = "color: green;">MESSAGE</label>
         <div class = "col-sm-10">
          {{ form.message }}
         </div>
@@ -487,7 +403,7 @@
 
        <div class = "form-group row">
         <div class = "col-sm-12">
-         <button type = "submit" id = "form-submit" class = "btn" style = "color: gray;">Send</button>
+         <button type = "submit" id = "form-submit" class = "btn" style = "color: green; font-weight: bold;">SEND</button>
         </div>
        </div>
 
@@ -499,5 +415,6 @@
   </div>
 
  </div>
- 
+
+
 {% endblock %}

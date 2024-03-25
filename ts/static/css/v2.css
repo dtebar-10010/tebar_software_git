@@ -1,0 +1,125 @@
+
+ul li a:visited {
+ color: darkgray; /* Change color after a link has been clicked */
+ text-decoration: none;
+}
+
+ul li a:hover {
+ color:whitesmoke;
+ text-decoration: none;
+}
+
+ul li a:active {
+ color: saddlebrown; /* Color change during the click action */
+ text-decoration: none;
+}
+
+ul li a {
+    color: green !important;
+  font-weight: bold;
+}
+
+/* Solid circle for top-level */
+ul > li::before {
+ content: "\25CF"; /* Unicode for solid circle */
+ color: transparent;
+ margin-right: 0px;
+ font-size: 0px;
+ list-style: none;
+}
+
+/* Hollow circle for indented levels */
+ul ul li::before {
+ content: "\25E6"; /* Unicode for hollow circle */
+ color: transparent;
+ margin-right: 0px;
+ font-size: 0px;
+}
+
+nav ul {
+ margin-top: 22px;
+}
+
+nav ul li {
+ margin: 0px 0px;
+}
+
+nav a {
+ padding: 11px 11px;
+}
+
+.special-p {
+ margin-bottom: 0px !important; /* Adds spacing between paragraphs */
+ font-size: 11px !important;
+}
+
+em {
+ font-style: normal;
+ font-weight: bold;
+ color:green;
+}
+
+ul {
+ list-style: none !important;
+}
+
+ul li a.active {
+ color: saddlebrown;
+ background-color: transparent;
+}
+
+ul li a.active i {
+    color: saddlebrown;
+}
+
+ul, li, p {
+ font-size: 1.2em;
+ line-height: 1.5;
+ color: green;
+ text-transform: uppercase;
+}
+
+.author-text ul li a:hover {
+  color: whitesmoke;
+}
+
+#ContactForm {
+ padding-left: 11px;
+}
+
+#ContactForm input[type="text"],
+#ContactForm input[type="email"],
+#ContactForm textarea {
+ border: 2px solid gray;
+}
+
+.form-group {
+ font-family: "Arial", sans-serif;
+ font-size: 14px;
+ color: gray;
+}
+
+.swal2-confirm {
+ background-color: saddlebrown !important;
+ color: #FF5733;
+}
+
+.swal2-popup {
+ background-color: #023020;
+}
+
+.swal2-html-container {
+ color: #28a745 !important;
+}
+
+p{
+ color: #FAF9F6 !important;
+}
+
+.content.third-content{
+ max-width: 70% !important;
+}
+
+  .white-on-hover:hover {
+    color: whitesmoke !important;
+  }
